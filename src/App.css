@@ -1,5 +1,13 @@
+body {
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
 }
 
 .App-logo {
@@ -14,12 +22,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +42,334 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-photo {
+  float: right;
+  margin-right: 50px;
+  margin-top: 20px;  
+}
+
+.App-name {
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px; 
+  color: #282c34;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.headerCv {
+  background-color: blanchedalmond;
+  height: 200px;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.App-footer {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: bottom;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footerCv {
+  background-color: grey;
+  height: 100px;
+  width: 800px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-description {
+  margin-top: 40px;
+  align-items: center;
+  font-size: small;
+  display: inline-block;
+}
+
+.footer-description span {
+  margin-left: 10px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.mainSection {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.presentation {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.personalInfo {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.personalInfo span {
+  margin-left: 20px;
+}
+
+.section-title {
+  font-size: larger;
+  font-variant: small-caps;
+  margin-bottom: 10px;
+  width: 700px;
+}      
+
+.workExperiences {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.workContainer, .educationContainer, .languageContainer, .techSkillContainer, .softSkillContainer, .hobbiesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.workExperiences span {
+  margin-left: 20px;
+}
+
+.education {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.education span {
+  margin-left: 20px;
+}
+
+.languages {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.languages span {
+  margin-left: 20px;
+}
+
+.skills {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skills span {
+  margin-left: 20px;
+}
+
+.hobbies {
+  background-color: whitesmoke;
+  color: #282c34;
+  width: 800px;
+  font-size: medium;
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hobbies span {
+  margin-left: 20px;
+}
+
+.workCard {
+  box-shadow: 0px 2px 8px 0px rgba(21, 41, 53, 0.32);
+  padding: 15px;
+  width: 350px;
+  height: 400px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.educationCard {
+  box-shadow: 0px 2px 8px 0px rgba(21, 41, 53, 0.32);
+  padding: 15px;
+  width: 350px;
+  height: 150px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.languageCard {
+  box-shadow: 0px 2px 8px 0px rgba(21, 41, 53, 0.32);
+  padding: 15px;
+  width: 350px;
+  height: 150px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.techSkillCard {
+  box-shadow: 0px 2px 8px 0px rgba(21, 41, 53, 0.32);
+  padding: 15px;
+  width: 200px;
+  height: 120px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.softSkillCard {
+  box-shadow: 0px 2px 8px 0px rgba(21, 41, 53, 0.32);
+  padding: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.hobbyCard {
+  box-shadow: 0px 2px 8px 0px rgba(21, 41, 53, 0.32);
+  padding: 15px;
+  width: 200px;
+  height: 40px;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+}       
+
+.dates {
+  width: 200px;
+  height: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.projectDescription {
+  flex-grow: 4;
+  height: 150px;
+  width: 300px;
+}
+
+.organization {
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+}       
+
+.edudates {
+  width: 200px;
+  height: 20px;
+  font-weight: bold;
+}
+
+.description {
+  flex-grow: 4;
+  height: 50px;
+  width: 300px;
+}
+
+.coursesDescription {
+  flex-grow: 4;
+  height: 300px;
+  width: 300px;
+}
+
+.role {
+  flex-grow: 4;
+  height: 150px;
+}
+
+.flag {
+  width: 100px;
+}
+
+.logoSkill {
+  width: 100px;
+}
+
+.descriptionSkill {
+  width: 90px;
+  margin-left: 10px;
+}
+
+.softDescriptionSkill {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.hobbyDescription {
+  width: 150px;
+  margin-left: 10px;
 }
