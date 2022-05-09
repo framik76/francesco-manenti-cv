@@ -1,8 +1,8 @@
 {
   "name": "francesco-manenti-cv",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://framik76.github.io",
+  "private": false,
+  "homepage": "https://framik76.github.io/francesco-manenti-cv",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
