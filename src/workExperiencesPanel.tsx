@@ -11,7 +11,7 @@ const WorkExperiences = () => {
             <WorkProjectCard
                 company={"Mondora s.r.l. s.b."}
                 dates="Nov 2019 to present"
-                projectDescription="I am in the developing team of the project TS Digital for Teamsystem s.p.a. TS Digital is the main platform to manage all digital services. These services concern topics like electronic invoicing, digital signature, electronic payment, and services to help Italian companies to share informations with their business consultants."
+                projectDescription='I am in the developing team of the project <a href="https://app.teamsystemdigital.com/" target="blank">TS Digital</a> for <a href="https://www.teamsystem.com/" target="blank">Teamsystem s.p.a.</a> TS Digital is the main platform to manage all digital services. These services concern topics like electronic invoicing, digital signature, electronic payment, and services to help Italian companies to share informations with their business consultants.'
                 role="My contribution to the project concern to build a system that help to count the usage of each services by each customer to calculate how much customers have to pay. The system is built with some Springboot rest api and a frontend dashboard based on react. All the services are orchestrated by Kubernates and hosted on Azure cloud provider"
             />
             <WorkProjectCard
@@ -29,7 +29,7 @@ const WorkExperiences = () => {
             <WorkProjectCard
                 company="Mondora s.r.l. s.b."
                 dates="2013 to 2014"
-                projectDescription="I was in the developing team to build on the cloud the tutoring platform for Zanichelli S.p.A. (http://tutor.scuola.zanichelli.it). This is a web platform useful to teachers and students of high schools to manage home works of mathema- tics. Based on Play Framework and Backbone JS. The housing is on Amazon AWS and the provisioning is automatized using Puppet."
+                projectDescription='I was in the developing team to build on the cloud the <a href="http://tutor.scuola.zanichelli.it" target="blank">tutoring platform</a> for <a href="http://www.zanichelli.it" target="blank">Zanichelli S.p.A.</a>. This is a web platform useful to teachers and students of high schools to manage home works of mathema- tics. Based on Play Framework and Backbone JS. The housing is on Amazon AWS and the provisioning is automatized using Puppet.'
                 role="I have given my contribute to the project building the backoffice management system based on GWT and the frontend developed with Play Framework and Backbone JS framework. The hardware infrastructure is hosted by Amazon AWS."
             />
             <WorkProjectCard
@@ -79,7 +79,7 @@ const WorkExperiences = () => {
             <WorkProjectCard
                 company="Mondora s.p.a."
                 dates="Apr 2010 to Sept 2012"
-                projectDescription="I was in the developing team of the project Sense: a web platform for the management of the hardware and software re- sources deployed on a cloud provider like Amazon AWS. The system is based on JBOSS and the front-end is developed with GRAILS framework."
+                projectDescription="I was in the developing team of the project Sense: a web platform for the management of the hardware and software resources deployed on a cloud provider like Amazon AWS. The system is based on JBOSS and the front-end is developed with GRAILS framework."
                 role="J2EE developer"
             />
             <WorkProjectCard
@@ -97,7 +97,7 @@ const WorkExperiences = () => {
             <WorkProjectCard
                 company="Moonlab s.r.l."
                 dates="2009"
-                projectDescription="Development for Wolters Kluwer Italia S.r.l. of a web application integrated with the web portal www.ipsoa.it. Application is based on tomcat and verity to index the documents."
+                projectDescription='Development for Wolters Kluwer Italia S.r.l. of a web application integrated with the web portal <a href="http://www.ipsoa.it" target="blank">ipsoa.it</a>. Application is based on tomcat and verity to index the documents.'
                 role="J2EE developer"
             />
             <WorkProjectCard
@@ -177,7 +177,7 @@ const WorkExperiences = () => {
             <WorkProjectCard
                 company="Topgraf s.r.l."
                 dates="Aug 1999 to Feb 2000"
-                projectDescription="Development of the web portal www.partiricambio.it for the management of spare parts catalogues; system based on Microsoft IIS, MS SQL Server and ASP technology."
+                projectDescription='Development of the web portal <a href="http://www.partiricambio.it" target="blank">partiricambio.it</a> for the management of spare parts catalogues; system based on Microsoft IIS, MS SQL Server and ASP technology.'
                 role="Internship as part of my thesis - “Diploma universitario in informatica”"
             />
         </div>
